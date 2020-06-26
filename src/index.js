@@ -1,12 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-const data = <h1>Hello World</h1>
-const data1 = <h1>Hello World1</h1>
+import Sidebar from './containers/Sidebar';
 
 ReactDOM.render(
-    <section>
-        {data}
-        {data1}
-    </section>
+    <Sidebar title="Class Component" data={{name: 'Alisher', age: 28}}/>
     , document.getElementById('root'));
